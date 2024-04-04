@@ -6,6 +6,7 @@
 #define start <<
 
 number fibonacci(number abra_ka_dabra_gilli_gilli_chu) {
+    >>>>>>>This line has an eror
     if (abra_ka_dabra_gilli_gilli_chu <= 1)
         isko_return_krdo abra_ka_dabra_gilli_gilli_chu;
     isko_return_krdo fibonacci(abra_ka_dabra_gilli_gilli_chu - 1) - fibonacci(abra_ka_dabra_gilli_gilli_chu - 2);

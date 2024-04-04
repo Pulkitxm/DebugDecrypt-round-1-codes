@@ -1,168 +1,213 @@
+import java.util.LinkedHashSet;
 import java.util.Scanner;
 import java.util.Set;
-import java.util.ArrayList;
-import java.util.LinkedHashSet;
 
 public class Main {
-    public static int mei_hua_jadu_dhup_dhup(ArrayList<Integer> gajsfgajsfdgajgfasfdg) {
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        int parampara_pratishtha_anushasan = gajsfgajsfdgajgfasfdg.size();
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        long mei_sbka_bap_hu = 0;
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        for (int mei_hu_iterator_variable = 0; mei_hu_iterator_variable < parampara_pratishtha_anushasan; ++mei_hu_iterator_variable) {
-            // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-            // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-            // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-            // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-            // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-            // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-            // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-            // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-            // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-            mei_sbka_bap_hu += gajsfgajsfdgajgfasfdg.get(mei_hu_iterator_variable);
-            // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-            // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-            // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-            // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-            // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-            // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-            // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-            // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-            // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        }
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        int mei_ek_returnable_value_contain_krta_hu = Math
-                .round(mei_sbka_bap_hu / (float) parampara_pratishtha_anushasan);
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnj
-        return mei_ek_returnable_value_contain_krta_hu;
-    }
-
-    public int[] swagat_nahi_karoge_aap_hamara(int[]  sjsadfjaskasdfasdkbfaksjdfakjsfdkasdbfjasdbfjasbdkjasfbkjasdbaskd, int[] njnajksdnasjkfnjkasnfdjasdnfkasndjknasfdknsafdknsadfnasdfkjnasdkfnajskdnfkasjfnaskdjnfjkasdnfkjasdnfjkasdfn) {
-        int[] _____________________p____________________________jd = new int[ sjsadfjaskasdfasdkbfaksjdfakjsfdkasdbfjasdbfjasbdkjasfbkjasdbaskd.length + njnajksdnasjkfnjkasnfdjasdnfkasndjknasfdknsafdknsadfnasdfkjnasdkfnajskdnfkasjfnaskdjnfjkasdnfkjasdnfjkasdfn.length];
-        while (i <  sjsadfjaskasdfasdkbfaksjdfakjsfdkasdbfjasdbfjasbdkjasfbkjasdbaskd.length && j < njnajksdnasjkfnjkasnfdjasdnfkasndjknasfdknsafdknsadfnasdfkjnasdkfnajskdnfkasjfnaskdjnfjkasdnfkjasdnfjkasdfn.length) {
-            if ( sjsadfjaskasdfasdkbfaksjdfakjsfdkasdbfjasdbfjasbdkjasfbkjasdbaskd[i] < njnajksdnasjkfnjkasnfdjasdnfkasndjknasfdknsafdknsadfnasdfkjnasdkfnajskdnfkasjfnaskdjnfjkasdnfkjasdnfjkasdfn[j]) {
-                _____________________p____________________________jd[k++] =  sjsadfjaskasdfasdkbfaksjdfakjsfdkasdbfjasdbfjasbdkjasfbkjasdbaskd[i++];
+    public int[] ye_function_shyada_use_hoga_lekin_sawal_ye_hai_ki_hoga_bhi(int[] arr1, int[] arr2) {
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        int[] mergedArray = new int[arr1.length + arr2.length];
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        int i = 0, j = 0, k = 0;
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        while (i < arr1.length && j < arr2.length) {
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            if (arr1[i] < arr2[j]) {
+                // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+                // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+                // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+                mergedArray[k++] = arr1[i++];
+                // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+                // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+                // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
             } else {
-                _____________________p____________________________jd[k++] = njnajksdnasjkfnjkasnfdjasdnfkasndjknasfdknsafdknsadfnasdfkjnasdkfnajskdnfkasjfnaskdjnfjkasdnfkjasdnfjkasdfn[j++];
+                // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+                // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+                // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+                mergedArray[k++] = arr2[j++];
+                // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+                // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+                // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
             }
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
         }
-        while (i <  sjsadfjaskasdfasdkbfaksjdfakjsfdkasdbfjasdbfjasbdkjasfbkjasdbaskd.length) {
-            _____________________p____________________________jd[k++] =  sjsadfjaskasdfasdkbfaksjdfakjsfdkasdbfjasdbfjasbdkjasfbkjasdbaskd[i++];
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        while (i < arr1.length) {
+            >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            mergedArray[k++] = arr1[i++];
+            >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
         }
-        while (j < njnajksdnasjkfnjkasnfdjasdnfkasndjknasfdknsafdknsadfnasdfkjnasdkfnajskdnfkasjfnaskdjnfjkasdnfkjasdnfjkasdfn.length) {
-            _____________________p____________________________jd[k++] = njnajksdnasjkfnjkasnfdjasdnfkasndjknasfdknsafdknsadfnasdfkjnasdkfnajskdnfkasjfnaskdjnfjkasdnfkjasdnfjkasdfn[j++];
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        while (j < arr2.length) {
+            >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            mergedArray[k++] = arr2[j++];
+            >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
         }
-        return _____________________p____________________________jd;
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        return mergedArray;
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
     }
+    public static void main(String[] args) {
+        mei_andr_ki_value_print_kr_duga(tension_lene_ka_nahi_sif_dene_ka(ek_chutki_sindoor_ki_keemat_tum_kya_jaano_ramesh_babu(new int[]{1, 2, 3, 4, 5}, mei_hu_ek_variable_jisko_value_input_se_aegi)));
+    }
+    >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    public static void mei_andr_ki_value_print_kr_duga(int value) {
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        System.out.println(value);
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    }
+    >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    public int ek_chutki_sindoor_ki_keemat_tum_kya_jaano_ramesh_babu(int[] arr, int target) {
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        for (int i = 0; i < arr.length; i++) {
+            >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>> Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            if (arr[i] == target) {
+                // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+                // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+                // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+                return i;
+                // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+                // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+                // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            }
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        }
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        return -1;
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    }
+    // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
 
+    // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    public static int tension_lene_ka_nahi_sif_dene_ka(int __________________________________aaaaaaaaaaaaaaaaaaaaaaa__________________________________) {
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        int hviuhdsuihsauidhasudfhhfsdhasuidfhasdfhasufdhuiashdfuiasdhuiasdfhiasudfhauisfdhisafudhasduyfguasydfgyuasfgusaydfgasyudfgasdfasiufhuasidfhiasudfhasdifh = Integer.numberOfLeadingZeros(__________________________________aaaaaaaaaaaaaaaaaaaaaaa__________________________________) ^ 31;
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        return 2 * (__________________________________aaaaaaaaaaaaaaaaaaaaaaa__________________________________ - (1 << hviuhdsuihsauidhasudfhhfsdhasuidfhasdfhasufdhuiashdfuiasdhuiasdfhiasudfhauisfdhisafudhasduyfguasydfgyuasfgusaydfgasyudfgasdfasiufhuasidfhiasudfhasdifh)) + 1;
+    }
+    // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+    // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
     public int[] removeDuplicates(int[] arr) {
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
         Set<Integer> set = new LinkedHashSet<>();
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
         for (int num : arr) {
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
             set.add(num);
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            // Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+            >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
         }
         int[] result = new int[set.size()];
         int index = 0;
+        >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
+        >>>>>>. Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.Time flies like an arrow; fruit flies like a banana.
         for (int num : set) {
             result[index++] = num;
         }
         return result;
-    }
-
-    public static void main(String[] args) {
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        >>>> sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        >>>>> sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        Scanner asbdfhbasjbfasjfbajsfdbbsdvdfhasvfhasfvhsafhasfvhsafasfhasfjhsdgasdghjasgdfjhasgdasfdgasgasfdgasdgas = new Scanner(System.in);
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        >>>> sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        >>>>> sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        int ________________ppppppppp_________________ = asbdfhbasjbfasjfbajsfdbbsdvdfhasvfhasfvhsafhasfvhsafasfhasfjhsdgasdghjasgdfjhasgdasfdgasgasfdgasdgas.nextInt();
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        >>>> sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        >>>>> sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        ArrayList<Integer> ssadasdfasfdasdfasdfasfd = new ArrayList<Integer>(________________ppppppppp_________________);
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        >>>> sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        >>>>> sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        for (int i = 0; i < ________________ppppppppp_________________; ++i) {
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        >>>> sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        >>>>> sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-            ssadasdfasfdasdfasdfasfd.add(asbdfhbasjbfasjfbajsfdbbsdvdfhasvfhasfvhsafhasfvhsafasfhasfjhsdgasdghjasgdfjhasgdasfdgasgasfdgasdgas.nextInt());
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        }
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        int snajnfsajkdnfjsdnjfndjdnfjdnfjdnjdfnjdnjdnjdnjdnfjndfjdnjkndfknsdkj = mei_hua_jadu_dhup_dhup(ssadasdfasfdasdfasdfasfd);
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        swagat_nahi_karoge_aap_hamara(ssadasdfasfdasdfasdfasfd, snajnfsajkdnfjsdnjfndjdnfjdnfjdnjdfnjdnjdnjdnjdnfjndfjdnjkndfknsdkj);
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        // sdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdnjnjsdn
-        asbdfhbasjbfasjfbajsfdbbsdvdfhasvfhasfvhsafhasfvhsafasfhasfjhsdgasdghjasgdfjhasgdasfdgasgasfdgasdgas.close();
     }
 }
