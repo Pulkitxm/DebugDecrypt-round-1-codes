@@ -2,33 +2,90 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
         Scanner scanner = new Scanner(System.in);
-        int R = scanner.nextInt();
-        int C = scanner.nextInt();
-        int[][] cost = new int[R][C];
-        for (int i = 0; i < R; i++)
-            for (int j = 0; j < C; j++)
-                cost[i][j] = scanner.nextInt();
-        int m = scanner.nextInt();
-        int n = scanner.nextInt();
-        scanner.close();
-        System.out.println(minCost(cost, m, n));
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        int sdfasdfasdfasdfasdfasdfasdfasdfasdrf = scanner.nextInt();
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        int safasfasdasdfasdasdasgdsgasasdasdaaaaaassssdasdf = scanner.nextInt();
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        int[][] idsxhfviusdagvhfgsdiufgvhbsdf = new int[sdfasdfasdfasdfasdfasdfasdfasdfasdrf][safasfasdasdfasdasdasgdsgasasdasdaaaaaassssdasdf];
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        for (int _______________a = 0; _______________a < sdfasdfasdfasdfasdfasdfasdfasdfasdrf; _______________a++)
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+            for (int ____________________________a = 0; ____________________________a < safasfasdasdfasdasdasgdsgasasdasdaaaaaassssdasdf; ____________________________a++)
+            // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+            // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+            // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+            // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+            // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+                idsxhfviusdagvhfgsdiufgvhbsdf[_______________a][____________________________a] = scanner.nextInt();
+                // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+                // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+                // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+                // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+                // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        System.out.println(bsdujfgsadfiuhasdfilughsadilfuhsaldifuhwsed(idsxhfviusdagvhfgsdiufgvhbsdf, m, n));
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
+        // dfjngkjsdfngjksdfgnkjsdfgbnksjdfgnsdjkfgnskdjfgbnsdjhkfgbndfjkgnb
     }
-    static int minCost(int[][] cost, int m, int n) {
-        if (n < 0 || m < 0)
+    static int bsdujfgsadfiuhasdfilughsadilfuhsaldifuhwsed(int[][] idsxhfviusdagvhfgsdiufgvhbsdf, int dsfhg, int n) {
+        if (n < 0 || dsfhg < 0)
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
             return Integer.MAX_VALUE;
-        else if (m == 0 && n == 0)
-            return cost[m][n];
+            <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        else if (dsfhg == 0 && n == 0)
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+            return idsxhfviusdagvhfgsdiufgvhbsdf[dsfhg][n];
+            <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         else
-            return cost[m][n] +
-                    min(minCost(cost, m - 1, n - 1),
-                            minCost(cost, m - 1, n),
-                            minCost(cost, m, n - 1));
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+            return idsxhfviusdagvhfgsdiufgvhbsdf[dsfhg][n] +
+            <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                    min(bsdujfgsadfiuhasdfilughsadilfuhsaldifuhwsed(idsxhfviusdagvhfgsdiufgvhbsdf, dsfhg - 1, n - 1),
+                    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                            bsdujfgsadfiuhasdfilughsadilfuhsaldifuhwsed(idsxhfviusdagvhfgsdiufgvhbsdf, dsfhg - 1, n),
+                            <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                            bsdujfgsadfiuhasdfilughsadilfuhsaldifuhwsed(idsxhfviusdagvhfgsdiufgvhbsdf, dsfhg, n - 1));
+                            <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     }
     static int min(int x, int y, int z) {
+        >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
         if (x < y)
+        >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
             return (x < z) ? x : z;
+            >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
         else
+        >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
             return (y < z) ? y : z;
+            >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     }
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 }
