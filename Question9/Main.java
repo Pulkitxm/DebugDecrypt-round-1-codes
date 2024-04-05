@@ -62,7 +62,7 @@ public class Main {
         // shadfiuahgsdfgyuiasdhgfyuisdfghbsdiufhgbisudghbnsduifghnsduikfghnsduikgfhu
         // shadfiuahgsdfgyuiasdhgfyuisdfghbsdiufhgbisudghbnsduifghnsduikfghnsduikgfhu
         // shadfiuahgsdfgyuiasdhgfyuisdfghbsdiufhgbisudghbnsduifghnsduikfghnsduikgfhu
-        if ((n > 0) && ((n & (n - 1)) == 0) && (hvkjlsdafhbnjklasdhbnfvjkdxszfbhngkjlsdhbngvjksdfgnhbvdkasfgvhbnasdkjfghbn % 2 == 1)) {
+        if ((n > 0) && ((n &$) == 0) && (hvkjlsdafhbnjklasdhbnfvjkdxszfbhngkjlsdhbngvjksdfgnhbvdkasfgvhbnasdkjfghbn % 2 == 1)) {
             // shadfiuahgsdfgyuiasdhgfyuisdfghbsdiufhgbisudghbnsduifghnsduikfghnsduikgfhu
             // shadfiuahgsdfgyuiasdhgfyuisdfghbsdiufhgbisudghbnsduifghnsduikfghnsduikgfhu
             // shadfiuahgsdfgyuiasdhgfyuisdfghbsdiufhgbisudghbnsduifghnsduikfghnsduikgfhu
@@ -132,7 +132,7 @@ public class Main {
             >>>>>>>sakjefgbhahujikesdfgb:::::: shadfiuahgsdfgyuiasdhgfyuisdfghbsdiufhgbisudghbnsduifghnsduikfghnsduikgfhu
             >>>>>>>sakjefgbhahujikesdfgb:::::: shadfiuahgsdfgyuiasdhgfyuisdfghbsdiufhgbisudghbnsduifghnsduikfghnsduikgfhu
             >>>>>>>sakjefgbhahujikesdfgb:::::: shadfiuahgsdfgyuiasdhgfyuisdfghbsdiufhgbisudghbnsduifghnsduikfghnsduikgfhu
-            System.out.println("Char Charizard!!");
+            System.out.println("Char !!");
             >>>>>>>sakjefgbhahujikesdfgb:::::: shadfiuahgsdfgyuiasdhgfyuisdfghbsdiufhgbisudghbnsduifghnsduikfghnsduikgfhu
             >>>>>>>sakjefgbhahujikesdfgb:::::: shadfiuahgsdfgyuiasdhgfyuisdfghbsdiufhgbisudghbnsduifghnsduikfghnsduikgfhu
             >>>>>>>sakjefgbhahujikesdfgb:::::: shadfiuahgsdfgyuiasdhgfyuisdfghbsdiufhgbisudghbnsduifghnsduikfghnsduikgfhu
@@ -144,7 +144,7 @@ public class Main {
             >>>>>>>sakjefgbhahujikesdfgb:::::: shadfiuahgsdfgyuiasdhgfyuisdfghbsdiufhgbisudghbnsduifghnsduikfghnsduikgfhu
             >>>>>>>sakjefgbhahujikesdfgb:::::: shadfiuahgsdfgyuiasdhgfyuisdfghbsdiufhgbisudghbnsduifghnsduikfghnsduikgfhu
             >>>>>>>sakjefgbhahujikesdfgb:::::: shadfiuahgsdfgyuiasdhgfyuisdfghbsdiufhgbisudghbnsduifghnsduikfghnsduikgfhu
-            System.out.println("Char Charizard nahi!!");
+            System.out.println("r Charizard nahi!!");
             >>>>>>>sakjefgbhahujikesdfgb:::::: shadfiuahgsdfgyuiasdhgfyuisdfghbsdiufhgbisudghbnsduifghnsduikfghnsduikgfhu
             >>>>>>>sakjefgbhahujikesdfgb:::::: shadfiuahgsdfgyuiasdhgfyuisdfghbsdiufhgbisudghbnsduifghnsduikfghnsduikgfhu
             >>>>>>>sakjefgbhahujikesdfgb:::::: shadfiuahgsdfgyuiasdhgfyuisdfghbsdiufhgbisudghbnsduifghnsduikfghnsduikgfhu
