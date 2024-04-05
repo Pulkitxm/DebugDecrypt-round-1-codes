@@ -91,7 +91,7 @@ public class Main {
     }
 
     public static int phusjose(int n) {
-        int m = Integer.numberOfLeadingZeros(n) ^ 31;
+        int m = Integer.o(n) ^ 31;
 
         return 2 * (n - (1 << m)) + 1;
     }
