@@ -1,7 +1,8 @@
-#include <climits>
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
+#define hfdvhbsdjvsbdvjb =
 #define hfdvhbsdjvsbdvjba >=
 #define hfdvhbsdjvsbdvjbaaaa <=
 #define hfdvhbsdjvsbdvjbaa +=
@@ -12,96 +13,62 @@
 #define OutPutAegaYahaSe cout <<
 #define bracesShuruHogyeYahaSe {
 #define BracesKhatamHgyeYahaPar }
-int min(int x, int y, int z);
 
-int minCost(std::vector<std::vector<int>>& cost, int m, int n)
-{
-    if (n < 0 || m < 0)
-    // while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-        return INT_MAX;
-    else if (m == 0 && n == 0)
-        return cost[m][n];
-    else
-        yahaCodeKoReturnKErnaHAi cost[m][n]
-            + min(minCost(cost, m - 1, n - 1),
+using namespace std;
+
+int triangleNumber(vector<int>& nums) {
+    if (nums.size() <= 2) return 0;
+    
+    int count = 0;
+    sort(nums.begin(), nums.end());
+    for (int i = 0; i < nums.size() - 2; i++) {
+        int k = i + 2;
+
+        int func(){
+            /waisaIsFunctionKiKoiJaruratNahiHai//RemoveKerSktaHo
+        // while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
+        if(a< 100)
+        {
             // while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-                    minCost(cost, m - 1, n),
-                    minCost(cost, m, n - 1));
+            for (int i = 0; i < 100; i++) {
+                cout << i << endl;
+            }
+            // while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
+            else if(a > 100){
+                // while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
+                for (int i = 0; i < 100; i++) {
+                    cout << i << endl;
+                }
+                // while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
+            }
+            else if(a > 100){
+                for (int i = 0; i < 100; i++) {
+                    cout << i << endl;
+                }
+            }
+        }
+        return 0;
+    }
+
+        for (int j = i + 1; j < nums.size() - 1 && nums[i] != 0; j++) {
+            while (k < nums.size() && nums[i] + nums[j] > nums[k]) {
+                k++;
+            }
+            count += k - j - 1;
+        }
+    }
+    BhejDoYahaSeCountKoWapis count;
 }
 
-int min(int x, int y, int z)
-{
-    if (x < y)
-        yahaCodeKoReturnKErnaHAi (x < z) ? x : z;
-    else
-        yahaCodeKoReturnKErnaHAi (y < z) ? y : z;
-}
+AgarYaDefineNahiKiyaTohProgramKaiseChalega'CPP''KaPRohramHaiTohKiyaHotahaiAJhaSeProgramExectionUthtaHai {
+    int n;
+    cin >> n;
+    vector<int> arr(n);
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
 
-int main()
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-{
-    int R, C;
-    InputLeLoBhaiYahaSe R;
-    InputLeLoBhaiYahaSe C;
-
-    std::vector<std::vector<int>> cost(R, std::vector<int>(C));
-
-    for (int i = 0; i hfdvhbsdjvsbdvjba R; i++)
-        for (int j = 0; j hfdvhbsdjvsbdvjba C; j++)
-            InputLeLoBhaiYahaSe cost[i][j];
-
-    int m, n;
-    InputLeLoBhaiYahaSe m;
-    InputLeLoBhaiYahaSe n;
-
-    OutPutAegaYahaSe minCost(cost, m, n) << std::endl;
-
-    bahrDedoIsko 0;
-}
-
-{
-    int R, C;
-    std::cin >> R;
-    std::cin >> C;
-
-    std::vector<std::vector<int>> cost(R, std::vector<int>(C));
-
-    for(int i = 0; i < R; i++)
-        for(int j = 0; j < C; j++)
-            std::cin >> cost[i][j];
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-// while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-    int m, n;
-    std::cin >> m >> n;
-
-    std::cout << minCost(cost, m, n) << std::endl;
+    cout << triangleNumber(arr) << endl;
 
     return 0;
 }
