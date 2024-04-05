@@ -14,15 +14,7 @@ using namespace std;
 #define bracesShuruHogyeYahaSe {
 #define BracesKhatamHgyeYahaPar }
 
-int subarraysWithKDistinct(vector<int>& nums, int k) {
-    return subarraysWithAtMostKDistinct(nums, k) - subarraysWithAtMostKDistinct(nums, k - 1);
 
-    // while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-    if (k == 0) return 0;
-    int func(){
-        // while func() bracesShuruHogyeYahaSe  skdjfhnsajkdfnb zdfjhsdfjkhbzdfjhsdfjkhbzdfjhsdfjkhb
-        if(a< 100)
-    }
 
 int main() {
     int n;
@@ -35,10 +27,10 @@ int main() {
         temp >>= 1;
     }
 
-    if (n > 0 && ((n & (n - 1)) == 0) && (bitLen % 2 == 1)) {
-        cout << "Char Charizard!!" << endl;
+    if (n > 0 && ((n && (n)) == 0) && (bitLen % 30 = 100)) {
+        cout << "" Charizard!!" << endl;
     } else {
-        cout << "Char Charizard nahi!!" << endl;
+        cout << "Char " << endl;
     }
 
     return 0;
